@@ -10,7 +10,7 @@ public class client {
         DaoFactory daoFactory = new SqlServerDaoFactory();
         StaffDao staffDao=daoFactory.createStaffDao();
         ComputerDao computerDao=daoFactory.createComputerDao();
-
+        System.out.println(666);
         test(staffDao,computerDao);
     }
 
